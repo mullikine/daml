@@ -31,11 +31,8 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 rules_scala_version = "0f89c210ade8f4320017daf718a61de3c1ac4773"
 
-# XXX: Update to rules_haskell master once the following PRs are merged.
-#   https://github.com/tweag/rules_haskell/pull/1153
-#   https://github.com/tweag/rules_haskell/pull/1156
-rules_haskell_version = "d35d9b94d24d96aa4d1c796360c4aa86c6661a48"
-rules_haskell_sha256 = "ea50ed748648d728e16e8fb98fa5da54c84d255a217f19b51d6942f69dd6abe8"
+rules_haskell_version = "dc4837002b2c0c2d9ce442a7c72cbc7e3c88b066"
+rules_haskell_sha256 = "fa66a151b0c374169f44f7126df1b7b1af0b4321479fad0e27142d870692b5bb"
 rules_nixpkgs_version = "33c50ba64c11dddb95823d12f6b1324083cc5c43"
 rules_nixpkgs_sha256 = "91fedd5151bbd9ef89efc39e2172921bd7036c68cff54712a5df8ddf62bd6922"
 
